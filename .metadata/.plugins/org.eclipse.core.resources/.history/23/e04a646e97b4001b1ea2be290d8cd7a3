@@ -1,0 +1,32 @@
+package methods;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		sayiBulmaca();
+		
+	}
+
+	public static void sayiBulmaca() {
+		
+		int[] sayilar = { 1, 2, 3, 4, 5, 6 };
+		int sayiAra = 5;
+
+		boolean var = false;
+
+		for (int sayi : sayilar) {
+
+			if (sayi == sayiAra) {
+				var = true;
+				break;
+			}
+		}
+		if (var) {
+			System.out.println("Sayi Bulundu ! " + sayiAra);
+		} else {
+			System.out.println("Sayi Bulunamadi ! " + sayiAra);
+		}
+		
+	}
+}

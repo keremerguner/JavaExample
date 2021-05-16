@@ -1,0 +1,33 @@
+package methods2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String mesaj = "Bugun hava cok guzel ! ";
+		String yeniMesaj = sehirVer();
+		System.out.println(yeniMesaj);
+		int toplam = topla(24,12);
+		System.out.println(toplam);
+
+	}
+
+	public static void ekle() {
+		System.out.println("Eklendi !");
+	}
+
+	public static void sil() {
+		System.out.println("Silindi !");
+	}
+
+	public static void guncelle() {
+		System.out.println("Guncellendi !");
+	}
+	
+	public static int topla(int number1, int number2) {
+		return;
+	}
+
+	public static String sehirVer() {
+		return "Kars";
+	}
+}

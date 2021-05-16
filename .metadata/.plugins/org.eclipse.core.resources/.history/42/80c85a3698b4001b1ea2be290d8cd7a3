@@ -1,0 +1,36 @@
+package methods;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		sayiBulmaca();
+		
+	}
+
+	public static void sayiBulmaca() {
+		
+		int[] sayilar = { 1, 2, 3, 4, 5, 6 };
+		int sayiAra = 5;
+
+		boolean var = false;
+
+		for (int sayi : sayilar) {
+
+			if (sayi == sayiAra) {
+				var = true;
+				break;
+			}
+		}
+		if (var) {
+			mesajVer();
+		} else {
+			System.out.println("Sayi Bulunamadi = " + sayiAra);
+		}	
+		
+	}
+	
+	public static void mesajVer(int sayiAra) {
+		System.out.println("Sayi Bulundu = " + sayiAra);
+	}
+}

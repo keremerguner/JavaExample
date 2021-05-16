@@ -1,0 +1,27 @@
+package stringsDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		String mesaj = "Bugun hava cok guzel";
+		System.out.println(mesaj);
+
+		System.out.println("Eleman sayisi = " + mesaj.length()); //metnin uzunlugunu yazdirma
+		System.out.println("5. Elemani = " + mesaj.charAt(4));   //metinde istedigimiz elemani yazdirma
+		System.out.println(mesaj.concat(" OLEEYYY"));			 //Mesaj birlestirme  (istersen mavi mesajýn basýna yeni bir degiskene ata
+		System.out.println(mesaj.startsWith("B"));				 //Baslangic harfi buysa TRUE dondurur.
+		System.out.println(mesaj.endsWith("l"));				 //Bitis L harfi ise TRUE dondurur.
+		
+		char[] karakterler = new char[5];						 //
+		mesaj.getChars(0, 5, karakterler, 0);					 //Ilk 5 karakteri baskilar
+		System.out.println(karakterler);						 //
+		
+		System.out.println(mesaj.indexOf('a'));					 //Mesajda ilk a harfini kacinci oldugunu bulur ve yazdirir.
+		System.out.println(mesaj.lastIndexOf("ok"));			 //Mesajda son kelimeyi veya harfi bulur ve yazdirir.
+		
+		
+	}
+
+
+}

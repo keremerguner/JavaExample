@@ -1,0 +1,30 @@
+package miniProjeAsalSayi;
+
+public class Main {
+
+	public static int main(String[] args) {
+
+		int sayi = 1;
+		boolean asal = true;
+		
+		if(sayi == 1) {
+			System.out.println("ASAL DEGILDIR !");
+			return ;
+		}
+		for (int i = 2; i < sayi; i++) {
+
+			if (sayi % 2 == 0) {
+				asal = false;
+			}
+		}
+			if(asal) {
+				System.out.println("ASAL !");
+			}
+			else {
+				System.out.println("ASAL DEGILDIR !");
+			}
+		}
+
+	
+
+}

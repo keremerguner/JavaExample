@@ -1,0 +1,27 @@
+package arraysDemo;
+
+//Diziler -array-
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		String ogr1 = "Kerem";
+		String ogr2 = "Sefa";
+		String ogr3 = "Nur";
+		String ogr3 = "Buse";
+		
+		System.out.println(ogr1);
+		System.out.println(ogr2);
+		System.out.println(ogr3);
+		
+		
+		String ogrenciler = new String[3];
+		ogrenciler[0] = "Kerem";
+		ogrenciler[1] = "Sefa";
+		ogrenciler[2] = "Nur";
+		ogrenciler[3] = "Buse";
+
+	}
+
+}
